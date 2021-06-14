@@ -3,8 +3,19 @@ let num1 = 4;
 let num2 = 7;
 let sum = num1 +num2 ;
 if(sum == 11){
-    return 'true';
+    console.log('true');
 }
 else{
-    return 'false';
-}
+    console.log('false');
+} 
+
+// let num1 = 4;
+// let num2 = 7;
+// let sum = num1 +num2 ;
+// if(sum == 11){
+//     return"true";
+// }
+// else{
+//      return "false";
+// }
+// if i try return statement it does not work

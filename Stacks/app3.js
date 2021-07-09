@@ -2,22 +2,20 @@
 class Stack{
     constructor(){
         this.items = [];
-        this.size = 3;
-        
+        this.size = 3; 
     }
     push(item){
-        this.items.push(item);
-       
+        this.items.push(item);  
     }
 
     pop(){
-        this.items.pop();
-       
+        this.items.pop();   
     }
 
     peek(){
         this.items[this.items.length-1];
     }
+    
     isFull(){
         if( this.size==this.items.length){
             console.log("true")

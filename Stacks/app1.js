@@ -2,8 +2,9 @@
 class Stack{
     constructor(){
         this.items = [];
-            
-    }
-     
+        this.size = 0;
+         
+    }  
 } 
 let myStack =new Stack();
+

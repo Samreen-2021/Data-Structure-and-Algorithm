@@ -17,6 +17,10 @@ class Stack{
   peek(){
       this.items[this.items.length-1];
   }
+  size(){
+    this.size = this.items.length;
+    console.log(this.size);
+  }
   printStack(){
     for(let i=0; i<this.items.length; i++){
        console.log(this.items[i]);
